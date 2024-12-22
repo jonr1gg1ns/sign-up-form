@@ -1,102 +1,103 @@
 body {
-display: flex;
-height: 100vh;
-}
-
-.main {
     display: flex;
-    gap: 25px;
-    padding: 0;
-    padding-right: 20px;
-    border: none;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1), 0px -4px 10px rgba(0, 0, 0, 0.1);
-
-
-}
-
-.main fieldset {
-    flex: 1;
-}
-.email {
-    border: 0px white;
-}
-
-.name {
-    border: 0px white;
-    padding-left: 0px;
-}
-
-.password {
-    border: 0px white;
-}
-
-.leftside {
-    flex-grow: .5;
-    border: 3px solid black;
-    margin-top: 0px;
-}
-
-.form { 
-    display: flex;             
-    flex-direction: column;    
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
-
-}
-
-.rightside {  
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    padding-left: 50px;
-
-}
-#btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    color: white;
-    background: linear-gradient(45deg, #4A90E2, #007AFF);
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-    max-width: 200px;
-
-}
-
-#btn:hover {
-    background: linear-gradient(45deg, #5AA9F0, #338CFF);
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
-}
-
-#btn:active {
-    background: linear-gradient(45deg, #338CFF, #0056B3);
-    box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-label {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 8px;
-    display: block;
-}
-
-
-input {
-    width: 100%;
-    padding: 12px;
-    font-size: 1rem;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    transition: all 0.3s ease;
-}
-
-fieldset > label {
-    margin-top: 10px;
-}
+    height: 100vh;
+    }
+    
+    .main {
+        display: flex;
+        gap: 25px;
+        padding: 0;
+        padding-right: 20px;
+        border: none;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1), 0px -4px 10px rgba(0, 0, 0, 0.1);
+    
+    
+    }
+    
+    .main fieldset {
+        flex: 1;
+    }
+    .email {
+        border: 0px white;
+    }
+    
+    .name {
+        border: 0px white;
+        padding-left: 0px;
+    }
+    
+    .password {
+        border: 0px white;
+    }
+    
+    .leftside {
+        flex-grow: .5;
+        border: 3px solid black;
+        margin-top: 0px;
+    }
+    
+    .form { 
+        display: flex;             
+        flex-direction: column;    
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    
+    }
+    
+    .rightside {  
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-left: 50px;
+    
+    }
+    #btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        color: white;
+        background: linear-gradient(45deg, #4A90E2, #007AFF);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        max-width: 200px;
+    
+    }
+    
+    #btn:hover {
+        background: linear-gradient(45deg, #5AA9F0, #338CFF);
+        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+    }
+    
+    #btn:active {
+        background: linear-gradient(45deg, #338CFF, #0056B3);
+        box-shadow: inset 0px 4px 6px rgba(0, 0, 0, 0.2);
+    }
+    
+    label {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 8px;
+        display: block;
+    }
+    
+    
+    input {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        transition: all 0.3s ease;
+    }
+    
+    fieldset > label {
+        margin-top: 10px;
+    }
+    
